@@ -7,7 +7,6 @@
 }
 #let CopyrightClaim = [
   #page(numbering: none, header: none, footer: none)[
-    #pagebreak(to: "odd")
     #v(4.6em)
     #ClaimTitle([版权声明])
     #v(2.6em)
@@ -77,7 +76,7 @@
 }
 
 #let Statement(year, month, day, teacher_sign : none, my_sign: none) ={
-  pagebreak(to: "odd")
+  pagebreak()
   block()[
     #ClaimTitle([北京大学学位论文原创性声明和使用授权说明])
     #OriginalityStatement(year, month, day, my_sign : my_sign)

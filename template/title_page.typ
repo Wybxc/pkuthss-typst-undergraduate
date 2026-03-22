@@ -27,6 +27,7 @@
   ]
   page(numbering: none, header: none, footer: none)[
     #set align(center)
+    #set par(justify: false)
 
     #v(0.5em)
     #pad(left: 1em)[
@@ -34,7 +35,7 @@
         columns: (auto, auto),
         column-gutter: 1.05em,
         image("../asset/pkulogo.svg", height: 68pt, fit: "contain"),
-        align(horizon, 
+        align(horizon,
           image("../asset/pkuword.svg", height: 47pt, fit: "contain")
         )
       )
@@ -49,8 +50,8 @@
     ]
 
     #v(2.5em)
-    
-    #let title = fieldvalue.with(style : 字体.黑体, size : 字号.一号, row_gutter : 0.5em) 
+
+    #let title = fieldvalue.with(style : 字体.黑体, size : 字号.一号, row_gutter : 0.5em)
     #pad(left: 11.5%, right: 14%)[#grid(
       columns: 2,
       rows: 2,
@@ -59,8 +60,8 @@
       [#align(horizon, text(font: 字体.宋体, size : 字号.二号)[题目：])], [#strong(title(chinese_title))],
       [],[#strong(title(english_title))]
     )]
-    #v(9.5em)
-    #let term = fieldvalue.with(style : 字体.仿宋, size : 字号.小三, row_gutter : 0.7em) 
+    #v(6.7em)
+    #let term = fieldvalue.with(style : 字体.仿宋, size : 字号.小三, row_gutter : 0.7em)
     #pad(left: 15.5%, right: 19%, grid(
       columns: 2,
       row-gutter: 0.95em,

@@ -24,12 +24,13 @@
   宋体: ("Times New Roman", "SimSun"),
   黑体: ("Times New Roman", "SimHei"),
   楷体: ("Times New Roman", "KaiTi_GB2312"),
-  代码: ("Consolas"),
+  代码: "Consolas",
+  数学: ((name: "SimSun", covers: regex("\p{Han}")), "New Computer Modern Math"),
 )
 
 #let style_size(style, size, content) = {
   text(
-    font : 字体.at(style),
-    size : 字号.at(size)
+    font: 字体.at(style),
+    size: 字号.at(size),
   )[content]
 }

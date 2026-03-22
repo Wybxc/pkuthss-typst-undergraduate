@@ -1,6 +1,5 @@
 #import "font.typ": *
 #let abstract_title(title) = {
-  pagebreak(to: "odd")
   align(center + top)[
     #set text(font: 字体.黑体, size: 字号.三号)
     #title  

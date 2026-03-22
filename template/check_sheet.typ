@@ -37,7 +37,6 @@
   }
   
   page(numbering: none, header: none, footer: none)[
-    #pagebreak(to: "odd")
     #align(center, [#text(size: 字号.三号)[北京大学本科毕业论文导师评阅表]])
     #v(0.8em)
 

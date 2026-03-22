@@ -64,19 +64,18 @@
       numbering(if brackets { "(A.1)" } else { "A.1" }, ..nums)
     }
   }
+  // h(0.5em)
 }
 
 #let foot_numbering() = {
   context {
     [
-    #if not page_start.at(here())  {
-    } else {
-    
-      set text(size: 字号.五号, font : 字体.黑体, weight: "regular")
-      set align(center)
-      text[第 #counter(page).at(here()).first() 页] 
-    }
-    #label("__footer__")
-    ] 
+      #if not page_start.at(here()) { } else {
+        set text(size: 字号.五号, font: 字体.黑体, weight: "regular")
+        set align(center)
+        text[第 #counter(page).at(here()).first() 页]
+      }
+      #label("__footer__")
+    ]
   }
 }

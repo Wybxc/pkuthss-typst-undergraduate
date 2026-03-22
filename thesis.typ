@@ -12,34 +12,34 @@
 #TitlePage(
   chinese_title: [Typst：世界前沿的排版系统],
   english_title: [Typst: State-of-art \ Formatting System],
-  name : "十一",
-  studentid : "20000xxxxx",
-  department : "信息科学技术学院",
-  major : "信息与计算科学",
-  supervisor_name : "斯公子",
-  year_and_month : "二〇二五年五月"
+  name: "十一",
+  studentid: "20000xxxxx",
+  department: "信息科学技术学院",
+  major: "信息与计算科学",
+  supervisor_name: "斯公子",
+  year_and_month: "二〇二五年五月",
 ) <title-page>
 
 
 // 导师评价
 // CheckSheet参数全部必填
 #CheckSheet(
-  name : "十一",
-  studentid : "20000xxxxx",
-  school : "信息科学技术学院",
-  major : "信息与计算科学",
-  supervisor : "斯公子",
-  department : "计算机学院",
-  grade : "中等",
-  title : "助理教授",
-  chinese_title : "Typst：世界前沿的排版系统",
-  english_title : "Typst: State-of-art Formatting System",
-  sign_pic : image("./images/老师签名.png"),
-  year : 2024,
-  month : 5,
-  day : 15,
+  name: "十一",
+  studentid: "20000xxxxx",
+  school: "信息科学技术学院",
+  major: "信息与计算科学",
+  supervisor: "斯公子",
+  department: "计算机学院",
+  grade: "中等",
+  title: "助理教授",
+  chinese_title: "Typst：世界前沿的排版系统",
+  english_title: "Typst: State-of-art Formatting System",
+  sign_pic: image("./images/老师签名.png"),
+  year: 2024,
+  month: 5,
+  day: 15,
 )[
-这篇文章写得还行
+  这篇文章写得还行
 ] // end of check comment
 
 // Copyright
@@ -47,34 +47,34 @@
 
 // 中文摘要
 #ChineseAbstract(
-  keywords : ("Typst", "排版")
+  keywords: ("Typst", "排版"),
 )[
-Typst 是一款新兴的排版工具，旨在提供简单、高效、且强大的排版功能。它结合了传统排版系统的优点，同时简化了用户的操作流程，使得用户可以更加专注于内容创作而不是排版细节。
+  Typst 是一款新兴的排版工具，旨在提供简单、高效、且强大的排版功能。它结合了传统排版系统的优点，同时简化了用户的操作流程，使得用户可以更加专注于内容创作而不是排版细节。
 
-Typst 的核心优势在于其直观的语法和强大的排版引擎。用户可以使用类似编程的方式来定义文档结构、样式和内容，这使得复杂文档的排版变得更加简便。此外，Typst 支持实时预览功能，用户可以在编辑过程中即时看到排版效果，从而提高了工作效率。
+  Typst 的核心优势在于其直观的语法和强大的排版引擎。用户可以使用类似编程的方式来定义文档结构、样式和内容，这使得复杂文档的排版变得更加简便。此外，Typst 支持实时预览功能，用户可以在编辑过程中即时看到排版效果，从而提高了工作效率。
 
-Typst 还具备高度的可扩展性和灵活性。通过插件和模板系统，用户可以自定义排版规则，满足不同的需求。不论是学术论文、商业报告还是个人项目，Typst 都能提供专业级的排版效果。
+  Typst 还具备高度的可扩展性和灵活性。通过插件和模板系统，用户可以自定义排版规则，满足不同的需求。不论是学术论文、商业报告还是个人项目，Typst 都能提供专业级的排版效果。
 
-总的来说，Typst 是一款兼具易用性和专业性的排版工具，适合各种类型的文档创作需求。它的出现，为用户提供了一种全新的排版体验，让排版过程变得更加愉快和高效。
+  总的来说，Typst 是一款兼具易用性和专业性的排版工具，适合各种类型的文档创作需求。它的出现，为用户提供了一种全新的排版体验，让排版过程变得更加愉快和高效。
 
-这篇文章提供了一个北大本科生毕业论文模板。
-  
+  这篇文章提供了一个北大本科生毕业论文模板。
+
 ]
 
 // English Abstract
 #EnglishAbstract(
-  keywords : ("Typst", "Formatting")
-)[ 
+  keywords: ("Typst", "Formatting"),
+)[
 
-Typst is an emerging typesetting tool designed to offer simple, efficient, and powerful typesetting capabilities. It combines the strengths of traditional typesetting systems while simplifying user operations, allowing users to focus more on content creation rather than typesetting details.
+  Typst is an emerging typesetting tool designed to offer simple, efficient, and powerful typesetting capabilities. It combines the strengths of traditional typesetting systems while simplifying user operations, allowing users to focus more on content creation rather than typesetting details.
 
-The core advantage of Typst lies in its intuitive syntax and powerful typesetting engine. Users can define document structures, styles, and content using a programming-like approach, making the typesetting of complex documents more straightforward. Additionally, Typst supports real-time preview functionality, enabling users to see the typesetting effects immediately during the editing process, thereby improving work efficiency.
+  The core advantage of Typst lies in its intuitive syntax and powerful typesetting engine. Users can define document structures, styles, and content using a programming-like approach, making the typesetting of complex documents more straightforward. Additionally, Typst supports real-time preview functionality, enabling users to see the typesetting effects immediately during the editing process, thereby improving work efficiency.
 
-Typst also boasts high extensibility and flexibility. Through a system of plugins and templates, users can customize typesetting rules to meet various needs. Whether it’s academic papers, business reports, or personal projects, Typst can deliver professional-grade typesetting results.
+  Typst also boasts high extensibility and flexibility. Through a system of plugins and templates, users can customize typesetting rules to meet various needs. Whether it’s academic papers, business reports, or personal projects, Typst can deliver professional-grade typesetting results.
 
-In summary, Typst is a user-friendly yet professional typesetting tool suitable for a wide range of document creation needs. Its introduction provides users with a new typesetting experience, making the typesetting process more enjoyable and efficient.
+  In summary, Typst is a user-friendly yet professional typesetting tool suitable for a wide range of document creation needs. Its introduction provides users with a new typesetting experience, making the typesetting process more enjoyable and efficient.
 
-This paper offers a template for undergraduate thesis in Peking University.
+  This paper offers a template for undergraduate thesis in Peking University.
 ]
 
 
@@ -106,18 +106,19 @@ Typst 中的标题使用 `=` 表示，其后跟着标题的内容。`=` 的数�
     #set align(center)
     渲染结果
   ],
+
   ```typ
-#heading(level: 2, numbering: none, outlined: false, "二级标题")
-#heading(level: 3, numbering: none, outlined: false, "三级标题")
-#heading(level: 4, numbering: none, outlined: false, "四级标题")
-#heading(level: 5, numbering: none, outlined: false, "五级标题")
+  #heading(level: 2, numbering: none, outlined: false, "二级标题")
+  #heading(level: 3, numbering: none, outlined: false, "三级标题")
+  #heading(level: 4, numbering: none, outlined: false, "四级标题")
+  #heading(level: 5, numbering: none, outlined: false, "五级标题")
   ```,
   [
     #heading(level: 2, numbering: none, outlined: false, "二级标题")
     #heading(level: 3, numbering: none, outlined: false, "三级标题")
     #heading(level: 4, numbering: none, outlined: false, "四级标题")
     #heading(level: 5, numbering: none, outlined: false, "五级标题")
-  ]
+  ],
 )\
 
 需要注意的是，这里的样式经过了本模板的一些定制，并非 Typst 的默认样式。
@@ -142,12 +143,13 @@ Typst 中的标题使用 `=` 表示，其后跟着标题的内容。`=` 的数�
     #set align(center)
     渲染结果
   ],
+
   ```typ
-*bold* and _italic_ are very simple.
+  *bold* and _italic_ are very simple.
   ```,
   [
-*bold* and _italic_ are very simple.
-  ]
+    *bold* and _italic_ are very simple.
+  ],
 )\
 
 由于绝大部分中文字体只有单一字形，这里遵循 `PKUTHSS` 的惯例，使用#strong[黑体]表示粗体，#emph[楷体]表示斜体。但需要注意的是，由于语法解析的问题， `*...*` 和 `_..._` 的前后可能需要空格分隔，而这有时会导致不必要的空白。 如果不希望出现这一空白，可以直接采用 `#strong` 或 `#emph`。
@@ -162,12 +164,13 @@ Typst 中的标题使用 `=` 表示，其后跟着标题的内容。`=` 的数�
     #set align(center)
     渲染结果
   ],
+
   ```typ
-对于中文情形，*使用 \* 加粗* 会导致额外的空白，#strong[使用 \#strong 加粗]则不会。
+  对于中文情形，*使用 \* 加粗* 会导致额外的空白，#strong[使用 \#strong 加粗]则不会。
   ```,
   [
-对于中文情形，*使用 \* 加粗* 会导致额外的空白，#strong[使用 \#strong 加粗]则不会。
-  ]
+    对于中文情形，*使用 \* 加粗* 会导致额外的空白，#strong[使用 \#strong 加粗]则不会。
+  ],
 )\
 
 == 脚注
@@ -184,12 +187,13 @@ Typst 中的标题使用 `=` 表示，其后跟着标题的内容。`=` 的数�
     #set align(center)
     渲染结果
   ],
+
   ```typ
-  Typst 支持添加脚注#footnote[这是一个脚注。]。
-```,
-[
-  Typst 支持添加脚注#footnote[这是一个脚注。]。
-]
+    Typst 支持添加脚注#footnote[这是一个脚注。]。
+  ```,
+  [
+    Typst 支持添加脚注#footnote[这是一个脚注。]。
+  ],
 )\
 
 == 图片
@@ -206,18 +210,19 @@ Typst 中的标题使用 `=` 表示，其后跟着标题的内容。`=` 的数�
     #set align(center)
     渲染结果
   ],
+
   ```typ
-#figure(
-  image("images/1-writing-app.png", width: 100%),
-  caption: "Typst 网页版界面",
-) <web>
-```,
-[
   #figure(
-  image("images/1-writing-app.png", width: 100%),
-  caption: "Typst 网页版界面",
-) <web>
-]
+    image("images/1-writing-app.png", width: 100%),
+    caption: "Typst 网页版界面",
+  ) <web>
+  ```,
+  [
+    #figure(
+      image("images/1-writing-app.png", width: 100%),
+      caption: "Typst 网页版界面",
+    ) <web>
+  ],
 )\
 
 @web 展示了 Typst 网页版的界面。更多有关内容，可以参考 @about。@developers 中介绍了 Typst 的主要开发者。代码中的 `<web>` 是这一图片的标签，可以在文中通过 `@web` 来引用。
@@ -236,26 +241,9 @@ Typst 中的标题使用 `=` 表示，其后跟着标题的内容。`=` 的数�
     #set align(center)
     渲染结果
   ],
-  codeblock(
-  ```typ
-#figure(
-  table(
-    columns: (auto, auto, auto, auto),
-    inset: 10pt,
-    align: horizon,
-      [*姓名*],[*职称*],[*工作单位*],[*职责*],
-      [李四],[教授],[北京大学],[主席],
-      [王五],[教授],[北京大学],[成员],
-      [赵六],[教授],[北京大学],[成员],
-      [钱七],[教授],[北京大学],[成员],
-      [孙八],[教授],[北京大学],[成员],
-  ),
-  caption: "答辩委员会名单",
-) <table>
-```,
-    caption: "默认表格",
-  ),
-  [
+
+  figure(
+    ```typ
     #figure(
       table(
         columns: (auto, auto, auto, auto),
@@ -270,7 +258,25 @@ Typst 中的标题使用 `=` 表示，其后跟着标题的内容。`=` 的数�
       ),
       caption: "答辩委员会名单",
     ) <table>
-  ]
+    ```,
+    caption: "默认表格",
+  ),
+  [
+    #figure(
+      table(
+        columns: (auto, auto, auto, auto),
+        inset: 10pt,
+        align: horizon,
+        [*姓名*], [*职称*], [*工作单位*], [*职责*],
+        [李四], [教授], [北京大学], [主席],
+        [王五], [教授], [北京大学], [成员],
+        [赵六], [教授], [北京大学], [成员],
+        [钱七], [教授], [北京大学], [成员],
+        [孙八], [教授], [北京大学], [成员],
+      ),
+      caption: "答辩委员会名单",
+    ) <table>
+  ],
 )
 
 对应的渲染结果如 @table 所示。代码中的 `<table>` 是这一表格的标签，可以在文中通过 `@table` 来引用。
@@ -287,6 +293,7 @@ Typst 中的标题使用 `=` 表示，其后跟着标题的内容。`=` 的数�
     #set align(center)
     渲染结果
   ],
+
   ```typ
   #booktab(
     width: 100%,
@@ -305,12 +312,20 @@ Typst 中的标题使用 `=` 表示，其后跟着标题的内容。`=` 的数�
       aligns: (left, center, right),
       columns: (1fr, 1fr, 1fr),
       caption: [`booktab` 示例],
-      [左对齐], [居中], [右对齐],
-      [4], [5], [6],
-      [7], [8], [9],
-      [10], [], [11],
+      [左对齐],
+      [居中],
+      [右对齐],
+      [4],
+      [5],
+      [6],
+      [7],
+      [8],
+      [9],
+      [10],
+      [],
+      [11],
     ) <booktab>
-  ]
+  ],
 )
 
 == 公式
@@ -327,12 +342,13 @@ Typst 中的标题使用 `=` 表示，其后跟着标题的内容。`=` 的数�
     #set align(center)
     渲染结果
   ],
+
   ```typ
-$ E = m c^2 $ <eq>
+  $ E = m c^2 $ <eq>
   ```,
   [
     $ E = m c^2 $ <eq>
-  ]
+  ],
 )\
 
 @eq2 是一个多行公式。
@@ -347,15 +363,17 @@ $ E = m c^2 $ <eq>
     #set align(center)
     渲染结果
   ],
+
   ```typ
-$ sum_(k=0)^n k
-    &= 1 + ... + n \
-    &= (n(n+1)) / 2 $ <eq2>  ```,
+  $ sum_(k=0)^n k
+      &= 1 + ... + n \
+      &= (n(n+1)) / 2 $ <eq2>  ```,
   [
-$ sum_(k=0)^n k
-    &= 1 + ... + n \
-    &= (n(n+1)) / 2 $ <eq2>
-  ]
+    $
+      sum_(k=0)^n k & = 1 + ... + n \
+                    & = (n(n+1)) / 2
+    $ <eq2>
+  ],
 )\
 
 @eq3 到 @eq6 中给出了更多的示例。
@@ -370,20 +388,23 @@ $ sum_(k=0)^n k
     #set align(center)
     渲染结果
   ],
+
   ```typ
-$ frac(a^2, 2) $ <eq3>
-$ vec(1, 2, delim: "[") $
-$ mat(1, 2; 3, 4) $
-$ lim_x =
-    op("lim", limits: #true)_x $ <eq6>
+  $ frac(a^2, 2) $ <eq3>
+  $ vec(1, 2, delim: "[") $
+  $ mat(1, 2; 3, 4) $
+  $ lim_x =
+      op("lim", limits: #true)_x $ <eq6>
   ```,
   [
-$ frac(a^2, 2) $ <eq3>
-$ vec(1, 2, delim: "[") $
-$ mat(1, 2; 3, 4) $
-$ lim_x =
-    op("lim", limits: #true)_x $ <eq6>
-  ]
+    $ frac(a^2, 2) $ <eq3>
+    $ vec(1, 2, delim: "[") $
+    $ mat(1, 2; 3, 4) $
+    $
+      lim_x =
+      op("lim", limits: #true)_x
+    $ <eq6>
+  ],
 )
 
 == 代码块
@@ -400,6 +421,7 @@ $ lim_x =
     #set align(center)
     渲染结果
   ],
+
   ````typ
   ```c
   int main() {
@@ -415,10 +437,66 @@ $ lim_x =
         return 0;
       }
     ```
-  ]
+  ],
 )\
 
-如果想要给代码块加上标题，并在文章中引用代码块，可以使用本模板中定义的 `codeblock` 命令。其中，`caption` 参数用于指定代码块的标题，`outline` 参数用于指定代码块显示时是否使用边框。下面给出的 @code 是一个简单的 Python 程序。其中的 `<code>` 是这一代码块的标签，意味着这一代码块可以在文档中通过 `@code` 来引用。
+// 如果想要给代码块加上标题，并在文章中引用代码块，可以使用本模板中定义的 `codeblock` 命令。其中，`caption` 参数用于指定代码块的标题，`outline` 参数用于指定代码块显示时是否使用边框。下面给出的 @code 是一个简单的 Python 程序。其中的 `<code>` 是这一代码块的标签，意味着这一代码块可以在文档中通过 `@code` 来引用。
+
+// #table(
+//   columns: (1fr, 1fr),
+//   [
+//     #set align(center)
+//     代码
+//   ],
+//   [
+//     #set align(center)
+//     渲染结果
+//   ],
+
+//   ````typ
+//   #codeblock(
+//     ```python
+//     def main():
+//         print("Hello, world!")
+//     ```,
+//     caption: "一个简单的 Python 程序",
+//     outline: true,
+//   ) <code>
+//   ````,
+//   [
+//     #figure(
+//       ```python
+//       def main():
+//           print("Hello, world!")
+//       ```,
+//       caption: "一个简单的 Python 程序",
+//     ) <code>
+//   ],
+// )\
+
+// @codeblock_definition 中给出了本模板中定义的 `codeblock` 命令的实现。
+
+// #figure(
+//   ```typ
+//   #let codeblock(raw, caption: none, outline: false) = {
+//     figure(
+//       if outline {
+//         rect(width: 100%)[
+//           #set align(left)
+//           #raw
+//         ]
+//       } else {
+//         set align(left)
+//         raw
+//       },
+//       caption: caption, kind: "code", supplement: ""
+//     )
+//   }
+//   ```,
+//   caption: [`codeblock` 命令的实现],
+// ) <codeblock_definition>
+
+用 `figure` 给代码块加上标题。figure 内的代码块会渲染一个边框，标题会显示在边框的下方。下面是一个示例：
 
 #table(
   columns: (1fr, 1fr),
@@ -430,49 +508,35 @@ $ lim_x =
     #set align(center)
     渲染结果
   ],
+
   ````typ
-#codeblock(
-  ```python
-  def main():
-      print("Hello, world!")
-  ```,
-  caption: "一个简单的 Python 程序",
-  outline: true,
-) <code>
+  #figure(caption: "一个简单的 Python 程序")[
+    ```python
+    def main():
+        print("Hello, world!")
+    ```
+  ] <code>
   ````,
   [
-    #codeblock(
+    #figure(caption: "一个简单的 Python 程序")[
       ```python
       def main():
           print("Hello, world!")
-      ```,
-      caption: "一个简单的 Python 程序",
-      outline: true,
-    ) <code>
-  ]
+      ```
+    ] <code>
+  ],
 )\
 
-@codeblock_definition 中给出了本模板中定义的 `codeblock` 命令的实现。
+如果想要更改 figure 内代码块的样式，可以修改 `template.typ` 中以下代码段：
 
-#codeblock(
-  ```typ
-#let codeblock(raw, caption: none, outline: false) = {
-  figure(
-    if outline {
-      rect(width: 100%)[
-        #set align(left)
-        #raw
-      ]
-    } else {
-      set align(left)
-      raw
-    },
-    caption: caption, kind: "code", supplement: ""
-  )
-}
-  ```,
-  caption: [`codeblock` 命令的实现],
-) <codeblock_definition>
+#figure(caption: [figure 内代码块的样式])[
+  ```typc
+  if it.kind == raw {
+    show raw: it => block(stroke: 1pt + luma(240), radius: 1pt, inset: 10pt, it)
+    it
+  }
+  ```
+]
 
 == 参考文献
 
@@ -489,16 +553,17 @@ Typst 支持 BibLaTeX 格式的 `.bib` 文件，同时也新定义了一种基�
     #set align(center)
     渲染结果
   ],
-  ```typ
-可以像这样引用参考文献： @wang2010guide 和 @kopka2004guide。
 
-#bibliography("ref.bib",
-  style: "ieee"
-)
+  ```typ
+  可以像这样引用参考文献： @wang2010guide 和 @kopka2004guide。
+
+  #bibliography("ref.bib",
+    style: "ieee"
+  )
   ```,
   [
     可以像这样引用参考文献： @wang2010guide 和 @kopka2004guide。
-  ]
+  ],
 )
 
 注意代码中的 `"ref.bib"` 也可以是一个数组，比如 `("ref1.bib", "ref2.bib")`。
@@ -512,8 +577,10 @@ Typst 支持 BibLaTeX 格式的 `.bib` 文件，同时也新定义了一种基�
 $ frac(a^2, 2) $
 $ vec(1, 2, delim: "[") $
 $ mat(1, 2; 3, 4) $
-$ lim_x =
-    op("lim", limits: #true)_x $
+$
+  lim_x =
+  op("lim", limits: #true)_x
+$
 
 == 理论二
 
@@ -556,36 +623,39 @@ $ lim_x =
     #set align(center)
     渲染结果
   ],
+
   ```typ
-$ S = pi r^2 $ <appendix-eq>
-$ mat(
-  1, 2, ..., 10;
-  2, 4, ..., 20;
-  3, 6, ..., 30;
-  dots.v, dots.v, dots.down, dots.v;
-  10, 20, ..., 100
-) $
-$ cal(A) < bb(B) < frak(C) < mono(D) < sans(E) < serif(F) $
-$ bold(alpha < beta < gamma < delta < epsilon) $
-$ upright(zeta < eta < theta < iota < kappa) $
-$ lambda < mu < nu < xi < omicron $
-$ bold(Sigma < Tau) < italic(Upsilon < Phi) < Chi < Psi < Omega $
+  $ S = pi r^2 $ <appendix-eq>
+  $ mat(
+    1, 2, ..., 10;
+    2, 4, ..., 20;
+    3, 6, ..., 30;
+    dots.v, dots.v, dots.down, dots.v;
+    10, 20, ..., 100
+  ) $
+  $ cal(A) < bb(B) < frak(C) < mono(D) < sans(E) < serif(F) $
+  $ bold(alpha < beta < gamma < delta < epsilon) $
+  $ upright(zeta < eta < theta < iota < kappa) $
+  $ lambda < mu < nu < xi < omicron $
+  $ bold(Sigma < Tau) < italic(Upsilon < Phi) < Chi < Psi < Omega $
   ```,
   [
-$ S = pi r^2 $ <appendix-eq>
-$ mat(
-  1, 2, ..., 10;
-  2, 4, ..., 20;
-  3, 6, ..., 30;
-  dots.v, dots.v, dots.down, dots.v;
-  10, 20, ..., 100
-) $
-$ cal(A) < bb(B) < frak(C) < mono(D) < sans(E) < serif(F) $
-$ bold(alpha < beta < gamma < delta < epsilon) $
-$ upright(zeta < eta < theta < iota < kappa) $
-$ lambda < mu < nu < xi < omicron $
-$ bold(Sigma < Tau) < italic(Upsilon < Phi) < Chi < Psi < Omega $
-  ]
+    $ S = pi r^2 $ <appendix-eq>
+    $
+      mat(
+        1, 2, ..., 10;
+        2, 4, ..., 20;
+        3, 6, ..., 30;
+        dots.v, dots.v, dots.down, dots.v;
+        10, 20, ..., 100
+      )
+    $
+    $ cal(A) < bb(B) < frak(C) < mono(D) < sans(E) < serif(F) $
+    $ bold(alpha < beta < gamma < delta < epsilon) $
+    $ upright(zeta < eta < theta < iota < kappa) $
+    $ lambda < mu < nu < xi < omicron $
+    $ bold(Sigma < Tau) < italic(Upsilon < Phi) < Chi < Psi < Omega $
+  ],
 )\
 
 @complex 是一个非常复杂的公式的例子：
@@ -600,24 +670,26 @@ $ bold(Sigma < Tau) < italic(Upsilon < Phi) < Chi < Psi < Omega $
     #set align(center)
     渲染结果
   ],
+
   ```typ
-$ vec(overline(underbracket(underline(1 + 2) + overbrace(3 + dots.c + 10, "large numbers"), underbrace(x + norm(y), y^(w^u) - root(t, z)))), dots.v, u)^(frac(x + 3, y - 2)) $ <complex>
+  $ vec(overline(underbracket(underline(1 + 2) + overbrace(3 + dots.c + 10, "large numbers"), underbrace(x + norm(y), y^(w^u) - root(t, z)))), dots.v, u)^(frac(x + 3, y - 2)) $ <complex>
   ```,
   [
-    $ vec(overline(underbracket(underline(1 + 2) + overbrace(3 + dots.c + 10, "large numbers"), underbrace(x + norm(y), y^(w^u) - root(t, z)))), dots.v, u)^(frac(x + 3, y - 2)) $ <complex>
-  ]
+    $
+      vec(overline(underbracket(underline(1 + 2) + overbrace(3 + dots.c + 10, "large numbers"), underbrace(x + norm(y), y^(w^u) - root(t, z)))), dots.v, u)^(frac(x + 3, y - 2))
+    $ <complex>
+  ],
 )\
 
 附录中也可以插入代码块，如 @appendix-code。
 
-#codeblock(
+#figure(
   ```rust
   fn main() {
       println!("Hello, world!");
   }
   ```,
   caption: "一个简单的 Rust 程序",
-  outline: true,
 ) <appendix-code>
 
 == Typst 的开发者 <developers>
@@ -638,8 +710,8 @@ $ vec(overline(underbracket(underline(1 + 2) + overbrace(3 + dots.c + 10, "large
 // 参考文献之前需要更改一下语言，因为文章中图表格的中文名称是设置typst为中文得到的
 // 如果就是需要中文参考文献格式可以不更改
 #set text(lang: "en")
-#bibliography(title:none, "ref.bib")
-
+#bibliography(title: none, style: "./template/apa-numeric-superscript-brackets.csl", "ref.bib")
+#set text(lang: "zh")
 
 = 致谢 <thanks>
 
@@ -650,4 +722,4 @@ $ vec(overline(underbracket(underline(1 + 2) + overbrace(3 + dots.c + 10, "large
 
 
 // 原创性与版权声明
-#Statement(2024, 5, 15, teacher_sign : image("./images/老师签名.png"), my_sign: image("./images/本人签名.png")) <claim>
+#Statement(2024, 5, 15, teacher_sign: image("./images/老师签名.png"), my_sign: image("./images/本人签名.png")) <claim>
