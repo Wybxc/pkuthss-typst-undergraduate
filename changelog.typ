@@ -6,6 +6,21 @@
 #set enum(indent: 0em)
 #set list(indent: 0em)
 
+#heading(level: 2, numbering: none, "2026-03-22")
+
+
++ 调整分页策略：移除了 `abstract.typ`、`check_sheet.typ`、`claim.typ`、`outline.typ` 中不必要的 `pagebreak(to: "odd")`；`Statement` 页面由强制奇数页改为普通 `pagebreak()`。
++ 更新模板核心逻辑（`template.typ`）：
+  - 新增 `chaptercounter`、`appendixcounter`、`footnotecounter`、`thmcounter` 等计数器，并在一级标题处重置图、表、代码、公式与定理计数；
+  - 新增数学字体设置（`show math.equation: set text(font: 字体.数学)`）；
+  - 调整图表/公式/代码/定理的编号与展示逻辑，统一采用中文编号样式；
+  - 增强 `ref` 的类型化引用输出，支持章节、图、表、代码、公式与定理的差异化展示。
++ 字体与页脚细节优化：`font.typ` 中将代码字体配置简化为字符串，并新增 `数学` 字体映射；`numbering.typ` 中整理并改进了页脚页码输出逻辑。
++ 目录与封面排版优化：`outline.typ` 调整目录编号宽度计算与若干链接排版细节；`title_page.typ` 关闭段落两端对齐并调整封面竖向间距（`9.5em -> 6.7em`）。
++ 新增定理相关模板：增加 `theorems.typ`，提供 `theorem`、`lemma`、`proof` 与 `qed` 记号。
++ 新增参考文献样式资源：加入 `apa-numeric-superscript-brackets.csl`（APA 数字上标方括号样式）。
++ 示例与格式统一：更新 `thesis.typ` 的示例排版与参数书写风格，并统一多处模板文件格式。
+
 #heading(level: 2, numbering: none, "2023-11-22")
 
 + 进一步优化了 `alwaysstartodd=true` 时的表现，现在插入的空白页不会显示页眉和页脚。
